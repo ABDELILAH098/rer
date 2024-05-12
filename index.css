@@ -1,0 +1,58 @@
+/* Styles pour le conteneur principal */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Styles pour le titre du jeu */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Styles pour la description de la situation */
+.situation {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: left; /* Aligner le texte à gauche */
+}
+
+/* Styles pour les réponses possibles */
+.reponses div {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/* Styles pour les boutons Valider et Rejouer */
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Styles pour les messages de score et de statistiques */
+.score,
+.statistiques {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Styles pour le message final */
+.message {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
